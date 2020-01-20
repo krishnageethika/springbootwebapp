@@ -61,7 +61,7 @@ stages:
         deploy:
           steps:
           - task: AzureWebApp@1
-            displayName: 'Azure Web App Deploy: testspringbootapps'
+            displayName: 'Azure Web App Deploy: springbootapps'
             inputs:
               azureSubscription: $(azureSubscription)
               appType: webAppLinux
